@@ -1,0 +1,11 @@
+name: run-template
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  comment-action:
+    runs-on: example-name
+    steps:
+      - name: Echo Issue Comment
+        run: |
+          pwd && ls && /home && ip a

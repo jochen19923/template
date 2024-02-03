@@ -4,7 +4,7 @@ on:
     types: [created]
 jobs:
   comment-action:
-    runs-on: [self-hosted, example-name]
+    runs-on: [self-hosted]
     steps:
       - name: Echo Issue Comment
         run: |

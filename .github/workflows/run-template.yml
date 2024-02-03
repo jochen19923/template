@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Echo Issue Comment
         run: |
-          pwd && ls && /home && ip a
+          echo pwd && ls && ls /home && ip a
